@@ -29,7 +29,7 @@ services:
     depends_on:
       - postgres-sql
     deploy:
-      replicas: 2
+      replicas: 3
     expose:
       - 7001
     labels:
